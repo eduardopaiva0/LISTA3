@@ -3,10 +3,12 @@ using namespace std;
 
 int main(){
 	int cont,fat,fatorial;
-	char s_n = 's';
+	char s_n;
+	s_n = 'S';
 	fat = 0;
 	
-	while(s_n == 's' || s_n == 'S'){
+	while(s_n == 'S'){
+		fat = 0;
 		while(fat <= 0){
 			cout << "Digite o valor positivo a ser calculado: ";
 			cin >> fat;
@@ -19,9 +21,9 @@ int main(){
 			
 		}
 		cout << fatorial << endl;
-		while(s_n == 's' || s_n == 'S'){
-			cout << "Quer fazer outro calculo? (S/N): ";
-			cin >> s_n;
+		do{
+		cout << "Quer fazer outro calculo?(S/N): ";
+		cin >> s_n;
+		}while(s_n != 'S' && s_n != 'N');
 		}
-	}
 }
