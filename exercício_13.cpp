@@ -26,4 +26,5 @@ int main(){
 		cin >> s_n;
 		}while(s_n != 'S' && s_n != 'N');
 		}
+		return 0;
 }
