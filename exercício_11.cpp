@@ -58,5 +58,4 @@ int main(){
 	cout << "A Porcentagem de valores positivos digitados eh: " << (quantValPosit/n) * 100 << "%" << endl;
 	cout << "A Porcentagem de valores negativos digitados eh: " << (quantValNegat/n) * 100 << "%" << endl;
 	return 0;
-
 }
